@@ -1,0 +1,16 @@
+
+.col {
+	   width: 150px;
+       height: 120px;
+       display: inline-block;
+       border: solid 1px
+       black; 
+}
+
+.draggable {
+	position: absolute;
+	top: 50px;
+	left: 650px;
+}
+
+
