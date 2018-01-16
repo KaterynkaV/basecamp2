@@ -1,0 +1,16 @@
+.parent > div {
+    background: #eee;
+    float: left;
+    width: 46.5%;
+    margin-right: 2%;
+}
+.text {
+	width: 95%;
+	margin: 2%;
+}
+.pictures {
+  /*background: url(https://js.cx/drag-heroes/heroes.png);*/
+  width: 130px;
+  height: 128px;
+  float: left;
+}
