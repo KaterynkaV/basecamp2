@@ -1,16 +1,51 @@
+html, body {
+	height: 100%;
+}
+
+.parent {	
+	height: 100%;
+}
+
 .parent > div {
-    background: #eee;
     float: left;
-    width: 46.5%;
+    width: 43%;
+    min-height: 80%;
+    border:2px solid #000;
     margin-right: 2%;
+	padding: 2%;
 }
-.text {
-	width: 95%;
-	margin: 2%;
+
+#chat > div {
+	border: 1px solid #dddfe2;
+	margin-right: 2%;
+	padding: 2%;
 }
-.pictures {
-  /*background: url(https://js.cx/drag-heroes/heroes.png);*/
-  width: 130px;
-  height: 128px;
-  float: left;
+#chat > div > img {
+	float: left;
+	margin-right: 2%;
 }
+
+#users { 
+	position:relative; 
+	top:0; 
+	left:0;
+}
+
+#users > div {
+ 	border: 1px solid #dddfe2;
+	margin-right: 2%;
+	padding: 2%;
+	height: 70px;
+
+}
+#users > div > img {
+	float: left;
+	margin-right: 2%;
+}
+
+#users #addUser {
+	position:absolute; 
+	bottom:10px; 
+	left:10px;
+}
+
